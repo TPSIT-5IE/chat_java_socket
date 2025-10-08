@@ -44,5 +44,6 @@ Il suo compito è rimanere in ascolto dei messaggi provenienti dal server e stam
 
 Modalità di Consegna
 Al termine, consegnate su Github il progetto contenente la cartella principale, rinominato come CognomeNome_ChatTCP, la cui struttura interna contenga le cartelle Client e Server.
+
 Buon lavoro!
 
