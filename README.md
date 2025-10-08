@@ -12,6 +12,7 @@ Requisiti
 Per garantire un'organizzazione del codice chiara e modulare, dovrete rispettare la seguente struttura. Il progetto finale dovrà contenere due cartelle separate: Client e Server.
 
 Specifiche dell'Applicazione Server
+
 Il server ha il compito di accettare connessioni, gestire la lista dei partecipanti e instradare i messaggi. Dovrà essere strutturato nelle seguenti tre classi:
 - MainServer:
 È la classe eseguibile che avvia il servizio.
@@ -28,6 +29,7 @@ Quando riceve un messaggio, lo inoltra alla ListaClient affinché venga distribu
 Deve anche gestire la disconnessione del client, assicurandosi che venga rimosso correttamente dalla lista condivisa.
 
 Specifiche dell'Applicazione Client
+
 Il client deve poter svolgere due attività in parallelo: inviare i messaggi scritti dall'utente e ricevere quelli inviati dagli altri. Per questo, utilizzerete un approccio multithread.
 - ClientMain:
 È la classe eseguibile che avvia il client.
